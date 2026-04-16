@@ -1,0 +1,30 @@
+* Eval code in org mode
+
+** shell
+#+begin_src shell
+echo Hello World!
+#+end_src
+
+#+RESULTS:
+: Hello World!
+
+** python
+#+begin_src python
+print("Hello World!")
+#+end_src
+
+#+RESULTS:
+: Hello World!
+
+** c/c++
+#+begin_src C++
+#include <iostream>
+
+int main(){
+    std::cout<<"Hello World!\n";
+    return 0;
+}
+#+end_src
+
+#+RESULTS:
+: Hello World!
